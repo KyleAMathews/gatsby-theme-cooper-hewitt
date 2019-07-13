@@ -7,7 +7,13 @@ export default ({ children, ...props }) => (
     <div
       sx={{
         minHeight: `100vh`,
-        borderWidth: theme => theme.space[2],
+        // borderWidth: theme => theme.space[2],
+        // Why can't I return an array for borderWidth?
+        borderWidth: theme => `${theme.space[2]}px 0 0 0`,
+        // How do I get access here to theme.breakpoints?
+        "@media screen and (min-width: 50em)": {
+          borderWidth: theme => theme.space[2]
+        },
         borderColor: `red`,
         borderStyle: `solid`
       }}
@@ -19,7 +25,7 @@ export default ({ children, ...props }) => (
             maxWidth: `container`,
             mx: `auto`,
             px: 3,
-            py: 4
+            py: [2, 4]
           })}
         >
           {children}

@@ -12,7 +12,7 @@ const Posts = ({ location, posts, siteTitle, socialLinks }) => (
         const title = node.title || node.slug;
         const keywords = node.keywords || [];
         return (
-          <div css={css({ mb: 4 })} key={node.slug}>
+          <div css={css({ mb: [3, 4] })} key={node.slug}>
             <SEO title="Home" keywords={keywords} />
             <div>
               <Styled.h2

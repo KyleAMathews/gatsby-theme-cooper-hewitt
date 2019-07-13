@@ -12,6 +12,7 @@ export default {
   background: white,
   primary: blue60,
   secondary: gray(20),
+  red: `rgb(197, 72, 77)`,
   muted: gray(80),
   highlight: opaqueLightGreen,
   heading: gray(10),

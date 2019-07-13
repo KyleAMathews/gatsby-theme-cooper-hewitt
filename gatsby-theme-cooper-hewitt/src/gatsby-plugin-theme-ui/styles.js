@@ -20,7 +20,9 @@ export default {
     fontFamily: `monospace`,
     // from typography overrideThemeStyles
     // "h1 code, h2 code, h3 code, h4 code, h5 code, h6 code"
-    fontSize: `inherit`
+    fontSize: theme => {
+      return theme.fontSizes[0] * 0.9 + `px`;
+    }
   },
   inlineCode: {
     borderRadius: `0.3em`,
