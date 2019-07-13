@@ -16,19 +16,19 @@ export default {
   highlight: opaqueLightGreen,
   heading: gray(10),
   prism: {
-    background: `#011627`,
-    comment: `#809393`,
-    string: `#addb67`,
-    var: `#d6deeb`,
-    number: `#f78c6c`,
-    constant: `#82aaff`,
-    punctuation: `#c792ea`,
-    className: `#ffc98b`,
-    tag: `#ffa7c4`,
-    boolean: `#ff5874`,
-    property: `#80cbc4`,
-    namespace: `#b2ccd6`,
-    highlight: `hsla(207, 95%, 15%, 1)`
+    background: gray(96),
+    comment: `#7D8B99`,
+    string: `#2f9c0a`,
+    var: `#a67f59`,
+    number: `#c92c2c`,
+    constant: `#2f9c0a`,
+    punctuation: `#5F6364`,
+    className: `#1990b8`,
+    tag: `#1990b8`,
+    boolean: `#c92c2c`,
+    property: `#c92c2c`,
+    namespace: `#c92c2c`
+    // highlight: `hsla(207, 95%, 15%, 1)`
   },
   modes: {
     dark: {

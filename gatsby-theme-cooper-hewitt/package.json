@@ -8,9 +8,11 @@
     "gatsby": "^2.6.0"
   },
   "dependencies": {
+    "emotion": "^10.0.14",
     "gatsby-theme": "^0.0.5",
     "gatsby-theme-blog": "^1.0.0",
     "gray-percentage": "^2.0.0",
+    "normalize.css": "^8.0.1",
     "theme-ui": "^0.2.13",
     "typeface-cooper-hewitt": "^0.0.44"
   }

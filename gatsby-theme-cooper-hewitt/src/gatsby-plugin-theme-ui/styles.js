@@ -42,9 +42,9 @@ export default {
     color: `primary`
   },
   blockquote: {
-    marginLeft: 0
-    // paddingLeft: rhythm(5 / 8),
-    // borderLeft: `${rhythm(3 / 8)} solid #CDE7B0`
+    marginLeft: 0,
+    paddingLeft: 3,
+    borderLeft: theme => `${theme.space[2]}px solid ${theme.colors.highlight}`
   },
   "blockquote > *": {
     fontStyle: `italic`
