@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-theme-cooper-hewitt",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.6.0"
+  },
+  "dependencies": {
+    "gatsby-theme": "^0.0.5",
+    "gatsby-theme-blog": "^1.0.0",
+    "gray-percentage": "^2.0.0",
+    "theme-ui": "^0.2.13",
+    "typeface-cooper-hewitt": "^0.0.44"
+  }
+}
