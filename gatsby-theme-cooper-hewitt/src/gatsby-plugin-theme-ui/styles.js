@@ -7,7 +7,7 @@ export default {
     fontFamily: `monospace`,
     tabSize: 4,
     hyphens: `none`,
-    marginBottom: 0,
+    marginBottom: 3,
     color: `white`,
     bg: `prism.background`,
     p: 3,
