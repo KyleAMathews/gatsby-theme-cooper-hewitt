@@ -21,21 +21,24 @@ export default {
     // from typography overrideThemeStyles
     // "h1 code, h2 code, h3 code, h4 code, h5 code, h6 code"
     fontSize: theme => {
-      return theme.fontSizes[0] * 0.9 + `px`;
+      return theme.fontSizes[0] * 0.92 + `px`;
     }
   },
   inlineCode: {
     borderRadius: `0.3em`,
     color: `secondary`,
     bg: `highlight`,
-    paddingY: `0.2em`,
-    paddingX: `0.2em`,
+    paddingY: `0.15em`,
+    paddingX: `0.15em`,
+    fontSize: theme => {
+      return (theme.fontSizes[0] * 0.92).toFixed(0) + `px`;
+    },
     "::before": {
-      letterSpacing: "-0.2em",
+      letterSpacing: "-0.35em",
       content: '"\u00A0"'
     },
     "::after": {
-      letterSpacing: "-0.2em",
+      letterSpacing: "-0.35em",
       content: '"\u00A0"'
     }
   },
