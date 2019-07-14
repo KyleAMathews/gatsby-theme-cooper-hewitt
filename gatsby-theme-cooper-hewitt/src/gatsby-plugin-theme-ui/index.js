@@ -1,18 +1,22 @@
-import merge from "lodash.merge";
+import merge from "deepmerge";
 import typography from "./typography";
 import colors from "./colors";
 import styles from "./styles";
 import prism from "./prism";
 
-export default merge({}, typography, {
-  initialColorMode: `light`,
-  colors,
-  fonts: {
-    monospace: `Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace`
-  },
-  sizes: {
-    container: 672
-  },
-  styles,
-  prism
-});
+export default merge.all([
+  {},
+  typography,
+  {
+    initialColorMode: `light`,
+    colors,
+    fonts: {
+      monospace: `"SFMono-Regular", Consolas,"Roboto Mono","Droid Sans Mono","Liberation Mono",Menlo,Courier,monospace`
+    },
+    sizes: {
+      container: 672
+    },
+    styles,
+    prism
+  }
+]);

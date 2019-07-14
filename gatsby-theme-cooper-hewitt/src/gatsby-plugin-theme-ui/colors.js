@@ -34,7 +34,10 @@ export default {
   modes: {
     dark: {
       text: lightWhite,
-      background: gray(10),
+      background: gray(15),
+      prism: {
+        background: gray(30)
+      },
       primary: purple30,
       secondary: lightWhite,
       muted: opaqueLightWhite,

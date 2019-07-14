@@ -8,6 +8,7 @@
     "gatsby": "^2.6.0"
   },
   "dependencies": {
+    "deepmerge": "^4.0.0",
     "emotion": "^10.0.14",
     "gatsby-theme": "^0.0.5",
     "gatsby-theme-blog": "^1.0.0",
