@@ -1,13 +1,21 @@
-import React, { Fragment } from "react";
-import { Styled } from "theme-ui";
+/** @jsx jsx */
+import React from "react";
+import { Styled, jsx } from "theme-ui";
+import { Link } from "gatsby";
 /**
  * Shadow me to add your own bio content
  */
 
 export default () => (
-  <Fragment>
-    Words by <Styled.a href="http://example.com/">Jane Doe</Styled.a>.
-    <br />
-    Change me. This is all quite default. If you'd like.
-  </Fragment>
+  <div>
+    <div sx={{ mb: 2 }}>
+      Words by <Styled.a href="http://example.com/">Jane Doe</Styled.a>.
+      <br />
+      Change me. This is all quite default. If you'd like.
+    </div>
+    <div sx={{ mb: 0 }}>
+      TODO: make these p elements once gatsby-theme-blog is fixed.
+      <Link to="/about/">More about me</Link>
+    </div>
+  </div>
 );

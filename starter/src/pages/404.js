@@ -1,10 +1,19 @@
 import React from "react";
+import Layout from "gatsby-theme-blog/src/components/layout";
 
-const NotFoundPage = () => (
-  <div>
+export default ({ data, location }) => (
+  <Layout location={location} title={data.site.siteMetadata.title}>
     <h1>NOT FOUND</h1>
     <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </div>
+  </Layout>
 );
 
-export default NotFoundPage;
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+  }
+`;
