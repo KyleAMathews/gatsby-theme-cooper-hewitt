@@ -42,9 +42,11 @@ export default {
       content: '"\u00A0"'
     }
   },
-  // from typography overrideThemeStyles
   a: {
-    color: `primary`
+    color: `primary`,
+    "&, &:active, &:visited": {
+      color: `primary`
+    }
   },
   blockquote: {
     marginLeft: 0,

@@ -1,7 +1,7 @@
 import gray from "gray-percentage";
 
 const blue60 = `#3A69A8`;
-const purple30 = `#D9BAE8`;
+const blue30 = `hsla(214, 50%, 82%, 1)`;
 const white = `#fff`;
 const lightWhite = `rgba(255, 255, 255, 0.86)`;
 const opaqueLightGreen = `hsla(88, 53%, 80%, 0.5)`;
@@ -38,7 +38,7 @@ export default {
       prism: {
         background: gray(30)
       },
-      primary: purple30,
+      primary: blue30,
       secondary: lightWhite,
       muted: opaqueLightWhite,
       highlight: blue60,
