@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from "gatsby";
 import Layout from "gatsby-theme-blog/src/components/layout";
 
 export default ({ data, location }) => (
