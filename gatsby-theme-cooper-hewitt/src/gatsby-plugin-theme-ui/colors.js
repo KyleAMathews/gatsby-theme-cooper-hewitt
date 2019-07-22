@@ -29,14 +29,13 @@ export default {
     boolean: `#c92c2c`,
     property: `#c92c2c`,
     namespace: `#c92c2c`
-    // highlight: `hsla(207, 95%, 15%, 1)`
   },
   modes: {
     dark: {
       text: lightWhite,
       background: gray(15),
       prism: {
-        background: gray(30)
+        background: gray(10)
       },
       primary: blue30,
       secondary: lightWhite,
