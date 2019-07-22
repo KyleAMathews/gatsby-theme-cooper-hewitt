@@ -1,6 +1,17 @@
-# Gatsby Theme Minimal Example
+<p align="center">
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  gatsby-starter-theme-cooper-hewitt
+</h1>
 
-A usage of
-[gatsby-theme-minimal](https://github.com/ChristopherBiscardi/gatsby-theme-minimal)
-that does nothing but use the theme. As a result you will see `Error: Missing resources for /` when navigating to `localhost:8000`. To get
-rid of that, create a page in `src/pages/index.js`.
+Quickly create a site for the blog theme `gatsby-starter-theme-cooper-hewitt` (a child theme of [gatsby-theme-blog](https://www.gatsbyjs.org/packages/gatsby-theme-blog/?=gatsby-theme-blog)).
+
+## Create a site from the starter
+```shell
+gatsby new new-blog https://github.com/KyleAMathews/gatsby-starter-theme-cooper-hewitt
+cd new-blog
+gatsby develop
+```
