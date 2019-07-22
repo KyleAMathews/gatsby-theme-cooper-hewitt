@@ -14,7 +14,6 @@ export default () => (
       Change me. This is all quite default. If you'd like.
     </div>
     <div sx={{ mb: 0 }}>
-      TODO: make these p elements once gatsby-theme-blog is fixed.
       <Styled.a as={Link} to="/about">
         More about me
       </Styled.a>
